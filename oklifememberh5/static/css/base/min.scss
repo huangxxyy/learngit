@@ -1,0 +1,24 @@
+//基础font-size
+$font:16;
+//设计稿宽度
+$screen:750;
+//主色
+$bColor: #EFEFF4;
+$font333:#333333;
+$font666:#666666;
+$font999:#999999;
+$fontfff:#ffffff;
+$mainC:#4776E5;
+$headerbg:#fafafa;
+$spackbg:#efeff4;
+$line:#b2b2b2;
+@function px2rem($n){
+  @return #{$n/($screen*$font/320)}rem
+}
+$fontNav:px2rem(36);
+$fontNavm:px2rem(36);
+$font32:px2rem(32);
+$font28:px2rem(28);
+$fontSmall:px2rem(26);
+$fontSuperSmall:px2rem(24);
+$fontSuperSuperSmall:px2rem(20);
